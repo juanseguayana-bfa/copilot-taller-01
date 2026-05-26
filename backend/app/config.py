@@ -6,5 +6,5 @@ ALGORITHM: str = "HS256"
 ACCESS_TOKEN_EXPIRE_SECONDS: int = 300
 
 USERS_DB: dict[str, str] = {
-    "admin": "$2b$12$ihSyCfRfQpliXW/cq9jH0.SkDxBJbICnvjWIA.wnBo9cktUtuy7YO",
+    "admin": "$2b$12$UFPPc.3Moi6FxN2Lbf1LneSNPWw8MdXZgwHPpnK/g9LP6xHt7Wa7O",
 }
