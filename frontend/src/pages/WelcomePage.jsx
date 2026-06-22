@@ -97,6 +97,84 @@ export default function WelcomePage() {
           </div>
         </div>
 
+        <section className={styles.certSection} aria-labelledby="cert-heading">
+          <div className={styles.certHeader}>
+            <div className={styles.certTag}>Microsoft Learn</div>
+            <h2 id="cert-heading" className={styles.certTitle}>Certificaciones Microsoft 2026</h2>
+            <p className={styles.certSubtitle}>
+              Las nuevas certificaciones lanzadas por Microsoft en 2026, enfocadas en seguridad en la nube, inteligencia artificial y soluciones agentic.
+            </p>
+          </div>
+
+          <div className={styles.certGrid}>
+            <div className={styles.cardShell}>
+              <div className={styles.card}>
+                <div className={styles.certBadge}>
+                  <span className={styles.certCode}>SC-500</span>
+                  <span className={styles.certLevel}>Associate</span>
+                </div>
+                <h3 className={styles.cardTitle}>Cloud and AI Security Engineer Associate</h3>
+                <p className={styles.cardText}>
+                  Diseña e implementa controles de seguridad integrales en entornos de nube e híbridos, incluyendo identidad, red, aplicaciones, datos y cargas de trabajo de IA. Reemplaza la certificación AZ-500 a partir de agosto de 2026.
+                </p>
+                <a
+                  href="https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.certLink}
+                  aria-label="Ver detalles del examen SC-500 en Microsoft Learn"
+                >
+                  Ver en Microsoft Learn →
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.cardShell}>
+              <div className={styles.card}>
+                <div className={styles.certBadge}>
+                  <span className={styles.certCode}>AI-103</span>
+                  <span className={styles.certLevel}>Associate</span>
+                </div>
+                <h3 className={styles.cardTitle}>Azure AI Apps and Agents Developer Associate</h3>
+                <p className={styles.cardText}>
+                  Desarrolla, gestiona e implementa agentes y soluciones de IA con Microsoft Foundry, incluyendo IA generativa, visión artificial y análisis de texto. Reemplaza la certificación AI-102 a partir de 2026.
+                </p>
+                <a
+                  href="https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.certLink}
+                  aria-label="Ver detalles del examen AI-103 en Microsoft Learn"
+                >
+                  Ver en Microsoft Learn →
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.cardShell}>
+              <div className={styles.card}>
+                <div className={styles.certBadge}>
+                  <span className={styles.certCode}>AB-100</span>
+                  <span className={styles.certLevel}>Expert</span>
+                </div>
+                <h3 className={styles.cardTitle}>Agentic AI Business Solutions Architect</h3>
+                <p className={styles.cardText}>
+                  Diseña y lidera la transformación de operaciones empresariales mediante arquitecturas de IA agentic, soluciones multi-agente y procesos de negocio impulsados por IA en la plataforma Microsoft.
+                </p>
+                <a
+                  href="https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.certLink}
+                  aria-label="Ver detalles del examen AB-100 en Microsoft Learn"
+                >
+                  Ver en Microsoft Learn →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className={styles.sessionInfo}>
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
             <circle cx="7" cy="7" r="6.5" stroke="#64748B" />

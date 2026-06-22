@@ -242,6 +242,114 @@
   margin: 0;
 }
 
+/* ── Microsoft Certifications 2026 ── */
+.certSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.certHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.certTag {
+  display: inline-flex;
+  align-self: flex-start;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2563EB;
+  background-color: #EFF6FF;
+  border: 0.8px solid #BFDBFE;
+  border-radius: var(--radius-xl);
+  padding: 2px 10px;
+}
+
+.certTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.certSubtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--color-text-secondary);
+  max-width: 580px;
+  margin: 0;
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .certGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.certBadge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.certCode {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #2563EB;
+  background-color: #EFF6FF;
+  border: 0.8px solid #BFDBFE;
+  border-radius: var(--radius-md);
+  padding: 2px 8px;
+}
+
+.certLevel {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  background-color: var(--color-neutral);
+  border: 0.8px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 2px 8px;
+}
+
+.certLink {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2563EB;
+  text-decoration: none;
+  margin-top: auto;
+  padding-top: 4px;
+  transition: color var(--transition-fast);
+}
+
+.certLink:hover {
+  color: #1D4ED8;
+  text-decoration: underline;
+}
+
 /* ── Session info ── */
 .sessionInfo {
   display: flex;
